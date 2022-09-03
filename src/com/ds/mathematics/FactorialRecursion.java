@@ -9,7 +9,7 @@ public class FactorialRecursion {
         System.out.println(factorial(x));
     }
 
-    private static int factorial(int x) {
+    private static long factorial(int x) {
         if (x > 0)
             return x * factorial(x - 1);
         else
